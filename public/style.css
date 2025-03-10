@@ -103,3 +103,34 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: #cc0000; /* Efeito no hover */
 }
+/* Títulos principais */
+h1, h2 {
+    color: #ff4d4d; /* vermelho */
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Títulos menores */
+h3, h4, h5 {
+    color: #fff; /* Texto branco para subtítulos menores */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Textos comuns */
+p {
+    color: #ddd; /* Cinza claro para melhor leitura */
+    font-size: 16px;
+    line-height: 1.5; /* Espaçamento confortável */
+}
+
+/* Links no conteúdo principal */
+main a {
+    color: #ff4d4d; /* Vermelho  */
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline; /* Efeito discreto no hover */
+}
