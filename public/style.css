@@ -189,3 +189,34 @@ a:hover {
 .filme p {
     color: #ffffff; /* Texto em branco */
 }
+/* Fundo geral */
+body {
+    background-color: #181818; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}
+/* Filme em Destaque */
+.filme-destaque {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre imagem e texto */
+    background-color: #000; /* Fundo preto para destacar */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.filme-destaque .descricao {
+    color: #fff;
+    max-width: 60%;
+    text-align: justify;
+    font-size: 25px; /* Aumentando o tamanho do texto */
+}
+
+.filme-destaque .descricao h3 {
+    color: #e50914; /* Título "Filme em Destaque" em vermelho */
+    font-size: 30px; /* Título um pouco maior para chamar atenção */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
