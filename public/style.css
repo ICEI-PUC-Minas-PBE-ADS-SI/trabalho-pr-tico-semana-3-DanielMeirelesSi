@@ -220,3 +220,69 @@ body {
     font-size: 30px; /* Título um pouco maior para chamar atenção */
     margin-bottom: 10px; /* Espaçamento abaixo do título */
 }
+/* Categorias */
+
+.menu-lateral {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 15px 0;
+}
+
+.menu-lateral ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    gap: 15px; 
+}
+
+.menu-lateral a {
+    color: #e50914; /* Vermelho para se destacar */
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 20px; /* Texto maior */
+    padding: 8px 15px;
+    border: 2px solid #e50914; /* Margem ao redor igual ao estilo de login/configurações */
+    border-radius: 8px;
+    transition: background 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+.menu-lateral a:hover {
+    background-color: #e50914; /* Fica vermelho ao passar o mouse */
+    color: #000; /* Texto fica preto no hover */
+}
+/* Categorias abaixo do título */
+.grid-filmes .categoria {
+    background-color: #e50914; 
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: inline-block; /* Para não ocupar a largura total */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Botões de Login e Configurações */
+.botoes-controle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.botoes-controle button {
+    background-color: #e50914; 
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.botoes-controle button:hover {
+    background-color: #fff; 
+    color: #e50914;
+    border: 2px solid #e50914;
+}
