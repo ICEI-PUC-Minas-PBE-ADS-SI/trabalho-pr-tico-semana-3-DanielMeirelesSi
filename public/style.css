@@ -28,3 +28,78 @@ header nav a {
 header nav a:hover {
     color: #ff4d4d; /* Efeito hover mais suave */
 }
+/* Estilo do Cabeçalho */
+header {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 15px; /* Menor espaçamento */
+    text-align: center; /* Centralizar conteúdo */
+}
+
+/* Título do Cabeçalho */
+header h1 {
+    font-size: 40px; /* Título maior */
+    margin-bottom: 8px;
+}
+
+/* Navegação */
+nav ul {
+    display: flex; /* Itens na horizontal */
+    justify-content: center; /* Centralizado */
+    list-style: none; /* Sem marcadores */
+    padding: 0;
+    gap: 15px; /* Menor espaçamento entre os links */
+}
+
+nav a {
+    color: #fff; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: normal; /* Texto sem negrito */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efeito simples ao passar o mouse */
+}
+
+/* Botões de Login e Configurações */
+.botoes-controle button {
+    background-color: #ff4d4d; /* Tom de vermelho claro*/
+    color: #fff;
+    border: 1px solid #ff4d4d;
+    border-radius: 12px; /* Bordas mais discretas */
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.botoes-controle button:hover {
+    background-color: #cc0000; /* Efeito simples */
+}
+
+/* Barra de Pesquisa */
+form {
+    margin-top: 10px;
+}
+
+form input[type="text"] {
+    width: 75%;
+    padding: 6px;
+    border: 1px solid #555; /* Cinza claro*/
+    border-radius: 12px; /* Bordas arredondadas */
+    background-color: #222; /* Fundo mais escuro */
+    color: #fff;
+}
+
+form button[type="submit"] {
+    background-color: #ff4d4d; /* Mesma cor dos botões */
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #cc0000; /* Efeito no hover */
+}
