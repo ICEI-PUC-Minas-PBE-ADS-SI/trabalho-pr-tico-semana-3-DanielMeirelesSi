@@ -8,17 +8,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
-
+- Nome: Daniel Meireles Aquino Jorge
+- Matricula: 882875
+- Proposta de projeto escolhida: Catalogo de Filmes
+- Breve descrição sobre seu projeto: Esse projeto tem como objetivo mostrar como poderia ser a estrutura de um site para organizar e apresentar filmes. A ideia é dividir os filmes por categorias para facilitar a navegação e simular como uma plataforma desse tipo funcionaria na prática.
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Foto do esboço](public/wireframe.projeto.jpg)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print da pagina final](public/pagina.final1.jpg)
+![Print da pagina final](public/pagina.final2.jpg)

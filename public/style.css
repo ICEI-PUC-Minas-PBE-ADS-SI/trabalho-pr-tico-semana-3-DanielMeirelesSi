@@ -208,7 +208,7 @@ body {
     border-radius: 10px;
 }
 
-.filme-destaque .descricao {
+.filme-destaque .descricao { 
     color: #fff;
     max-width: 60%;
     text-align: justify;
